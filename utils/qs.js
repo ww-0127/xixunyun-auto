@@ -6,11 +6,11 @@ const pubkey = require('./pubkey')
 const encrypt = new jsencrypt()
 encrypt.setPublicKey(pubkey)
 const data = qs.stringify({
-account: process.env.0632221020,
-password: process.env.lww221020,
-school_id: process.env.2029,
-request_source: 3,
-system: '5.1.1'
+  account: process.env["0632221020"],
+  password: process.env["lww221020"],
+  school_id: process.env["2029"],
+  request_source: 3,
+  system: '5.1.1'
 })
 
 
